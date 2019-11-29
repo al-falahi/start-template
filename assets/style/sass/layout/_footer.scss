@@ -1,0 +1,13 @@
+.footer {
+  background-color: $footer-background-color;
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: $footer-top-background-color;
+  }
+  &-bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: $footer-bottom-background-color;
+  }
+}
